@@ -1,9 +1,6 @@
 # Running/Walking Classification with Video Clips using LSTM 
 
-
-\includegraphics[width=\maxwidth{64.52584044154541em}]{image_0}
-
-
+![image_0.png](VideoClassificationExample_images/image_0.png)
 
 
 I am very grateful for the free-images from [https://www.irasutoya.com/](https://www.irasutoya.com/)
@@ -37,8 +34,7 @@ While the official example requires down-loading a dataset about 2 GB, this exam
    -  You may choose other networks when the final accuracy is not high enough. 
 
 
-
-\includegraphics[width=\maxwidth{58.003010536879074em}]{image_1}
+![image_1.png](VideoClassificationExample_images/image_1.png)
 
 
 ```matlab
@@ -107,9 +103,7 @@ end
 ```
 # Prepare the set of image features of a video clip lasting a few seconds
 
-
-\includegraphics[width=\maxwidth{17.360762669342698em}]{image_2}
-
+![image_2.png](VideoClassificationExample_images/image_2.png)
 
 
    -  A video clip whose duration is from minDuration to maxDuration as difined below was obtained.  
@@ -258,12 +252,12 @@ confusionchart(labelsValidation,YPred)
 
 ```
 ans = 
-  ConfusionMatrixChart のプロパティ:
+  ConfusionMatrixChart 縺ｮ繝励Ο繝代ユ繧｣:
 
     NormalizedValues: [2x2 double]
          ClassLabels: [2x1 categorical]
 
-  すべてのプロパティ を表示
+  縺吶∋縺ｦ縺ｮ繝励Ο繝代ユ繧｣ 繧定｡ｨ遉ｺ
 
 ```
 # Things to consider 
