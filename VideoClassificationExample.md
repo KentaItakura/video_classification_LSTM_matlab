@@ -1,9 +1,6 @@
 # Running/Walking Classification with Video Clips using LSTM 
 
-
 ![image_0.png](VideoClassificationExample_images/image_0.png)
-
-
 
 
 I am very grateful for the free-images from [https://www.irasutoya.com/](https://www.irasutoya.com/)
@@ -35,7 +32,6 @@ While the official example requires down-loading a dataset about 2 GB, this exam
    -  The features extracted from the pre-trained network were fed into LSTM layer as shown below.  
    -  Other networks such as googlenet, resnet50, and mobilenetv2 are available.  
    -  You may choose other networks when the final accuracy is not high enough. 
-
 
 
 ![image_1.png](VideoClassificationExample_images/image_1.png)
@@ -107,9 +103,7 @@ end
 ```
 # Prepare the set of image features of a video clip lasting a few seconds
 
-
 ![image_2.png](VideoClassificationExample_images/image_2.png)
-
 
 
    -  A video clip whose duration is from minDuration to maxDuration as difined below was obtained.  
@@ -258,12 +252,12 @@ confusionchart(labelsValidation,YPred)
 
 ```
 ans = 
-  ConfusionMatrixChart のプロパティ:
+  ConfusionMatrixChart 縺ｮ繝励Ο繝代ユ繧｣:
 
     NormalizedValues: [2x2 double]
          ClassLabels: [2x1 categorical]
 
-  すべてのプロパティ を表示
+  縺吶∋縺ｦ縺ｮ繝励Ο繝代ユ繧｣ 繧定｡ｨ遉ｺ
 
 ```
 # Things to consider 
