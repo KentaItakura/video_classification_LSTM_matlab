@@ -1,7 +1,7 @@
 # Running/Walking Classification with Video Clips using LSTM 
 
 
-![image_0.png](VideoClassificationExample_images/image_0.png)
+\includegraphics[width=\maxwidth{64.52584044154541em}]{image_0}
 
 
 
@@ -38,7 +38,7 @@ While the official example requires down-loading a dataset about 2 GB, this exam
 
 
 
-![image_1.png](VideoClassificationExample_images/image_1.png)
+\includegraphics[width=\maxwidth{58.003010536879074em}]{image_1}
 
 
 ```matlab
@@ -108,7 +108,7 @@ end
 # Prepare the set of image features of a video clip lasting a few seconds
 
 
-![image_2.png](VideoClassificationExample_images/image_2.png)
+\includegraphics[width=\maxwidth{17.360762669342698em}]{image_2}
 
 
 
