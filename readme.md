@@ -1,4 +1,4 @@
-[![View video classification using LSTM on File Exchange]](https://jp.mathworks.com/matlabcentral/fileexchange/74402-video-classification-using-lstm)
+[![View Video classification using LSTM（LSTMによる動画の分類） on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/74402-video-classification-using-lstm-lstm)
 
 # Running/Walking Classification with Video Clips using LSTM 
 This is a simple example of video classification using LSTM with MATLAB.
@@ -9,7 +9,9 @@ Please run the code named VideoClassificationExample.
 This example was created based on a Mathworks official documentation located [here](https://jp.mathworks.com/help/deeplearning/examples/classify-videos-using-deep-learning.html). While the official example requires down-loading a dataset about 2 GB, this example can try that
 with a small amout of data, which may help you giving a try easily.
 Note that this is just an example of LSTM with images and please refer to the official example for your further study.
-I appreciate for the free pictures from used in the thumbnail and live editor obtrained from this [page](https://www.irasutoya.com/).
+I appreciate for the free pictures from used in the thumbnail and live editor obtrained from this [page](https://www.irasutoya.com/).  
+<br>  
+
 [Japanese]  
 深層学習を用いてビデオの分類を行います。その人が歩いているのか/走っているのかをその人の頭に取り付けたカメラの動画から予測します。動画のフレームを入力とし、学習済みネットワークにより特徴量を取り出します。そして、その特徴量からLSTMによる分類を行います。静止画の分類は多く紹介されていますが、ビデオを入力とし、その数秒間のビデオから対象が何であるかを分類する例はmatlab document中にあまり多くありませんでした。また公式ドキュメントにも例はありますが、２ギガのデータセットをダウンロードする必要があり、ダウンロードや計算に多くの時間がかかり、手軽に試すにはやや不向きです。参考になれば幸いです。
 
