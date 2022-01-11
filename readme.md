@@ -16,9 +16,9 @@ I appreciate for the free pictures from used in the thumbnail and live editor ob
 深層学習を用いてビデオの分類を行います。その人が歩いているのか/走っているのかをその人の頭に取り付けたカメラの動画から予測します。動画のフレームを入力とし、学習済みネットワークにより特徴量を取り出します。そして、その特徴量からLSTMによる分類を行います。静止画の分類は多く紹介されていますが、ビデオを入力とし、その数秒間のビデオから対象が何であるかを分類する例はmatlab document中にあまり多くありませんでした。また公式ドキュメントにも例はありますが、２ギガのデータセットをダウンロードする必要があり、ダウンロードや計算に多くの時間がかかり、手軽に試すにはやや不向きです。参考になれば幸いです。
 
 [References]
-[1] Matlab Official Documentation: Classify Videos Using Deep Learning
-https://jp.mathworks.com/help/deeplearning/ug/classify-videos-using-deep-learning.html  
-[2] Irasutoya: https://www.irasutoya.com/ (images in the script were obtained from this website)  
+[1] Matlab Official Documentation: [Classify Videos Using Deep Learning](https://jp.mathworks.com/help/deeplearning/ug/classify-videos-using-deep-learning.html)    
+[2] [Irasutoya](https://www.irasutoya.com) : images in the script were obtained from this website  
+
 While the official example requires down-loading a dataset about 2 GB, this example can try that with a small amout of data, which may help you giving a try easily.
 Note that this is just an example of LSTM with images and please refer to the official example for your further study.  
 
